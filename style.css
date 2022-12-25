@@ -74,5 +74,18 @@ header .search input
 }
 header .search input::placeholder
 {
-    color: #fff;
+    color: #fff; 
+}
+
+header .search .fa-search
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: white;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+
+
 }
